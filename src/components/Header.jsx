@@ -33,17 +33,29 @@ const Header = () => {
       <div className='container mx-auto flex justify-between items-center'>
         
         {/* Logo */}
-        <a href="#">
+        <a 
+          data-aos='fade-down' 
+          data-aos-delay='1000' 
+          href="#"
+        >
           <img src={logo} alt="" />
         </a>
         
         {/* Navigation - Hidden on Mobile, shows on Desktop */}
-        <div className="hidden lg:flex">
+        <div 
+          data-aos='fade-down' 
+          data-aos-delay='1200' 
+          className="hidden lg:flex"
+        >
           <Nav />
         </div>
         
         {/* CTA Button - Hidden on Mobile, shows on Deskop  */}
-        <button className='btn btn-sm btn-outline hidden lg:flex'>
+        <button 
+          data-aos='fade-down' 
+          data-aos-delay='1400' 
+          className='btn btn-sm btn-outline hidden lg:flex'
+        >
           {btnText}
         </button>
         
@@ -59,9 +71,9 @@ const Header = () => {
           )}
         </button>
         {/* Mobile Navigation - Hidden on Mobile, shows on Desktop */}
+        {/* ***** CHECK STYLING IF BROKEN ***** */}
         <div className={`${
-          mobileNav ? 'left-0' : '-left-full'
-        } fixed top-0 bottom-0 bg-pink-400 w-[60vw] lg:hidden transition-all `}
+          mobileNav ? 'left-0' : '-left-full' } fixed top-0 bottom-0 bg-pink-400 w-[60vw] lg:hidden transition-all `}
         >
           <MobileNav />
         </div>
