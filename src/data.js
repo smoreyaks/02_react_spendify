@@ -76,7 +76,7 @@ export const overview = {
 
 export const features = {
   feature1: {
-    pretitle: 'Alwalys online',
+    pretitle: 'Always online',
     title: 'Real-time support with cloud',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
