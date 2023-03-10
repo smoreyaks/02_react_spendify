@@ -33,7 +33,7 @@ const Header = () => {
       <div className='container mx-auto flex justify-between items-center'>
         
         {/* Logo */}
-        <a 
+        <a
           data-aos='fade-down' 
           data-aos-delay='1000' 
           href="#"
@@ -44,7 +44,7 @@ const Header = () => {
         {/* Navigation - Hidden on Mobile, shows on Desktop */}
         <div 
           data-aos='fade-down' 
-          data-aos-delay='1200' 
+          data-aos-delay='1200'
           className="hidden lg:flex"
         >
           <Nav />
