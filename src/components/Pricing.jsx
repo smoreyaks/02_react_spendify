@@ -36,7 +36,7 @@ const Pricing = () => {
                     onClick={() => setIndex(cardIndex)}
                     className={`${
                       cardIndex === index ? 'bg-white shadow-2xl' : 'border border-grey' } 
-                      w-[350px] h-[350px] rounded-[12px] p-[40px] cursor-pointer transition-all`}
+                      w-[350px] h-[500px] rounded-[12px] p-[40px] cursor-pointer transition-all`}
                   >
                     
                     {/* Card Icon */}
@@ -73,7 +73,16 @@ const Pricing = () => {
                     </div>
                     
                     {/* Button */}
-                    {/* <button className='{`bg-accent  '></button> */}
+                    <button 
+                      className={`${
+                        cardIndex === index
+                          ? 'bg-accent hover:bg-accentHover text-white'
+                          : 'border border-accent text-accent'
+                      } btn btn-sm space-x-[14px]`}
+                    >
+                      <span>{ btnText }</span>
+                      <HiOutlineArrowNarrowRight />
+                    </button>
                   </div>
                 </div>
               )
