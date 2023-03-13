@@ -191,7 +191,7 @@ export const testimonials = {
         'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       image: AvatarImg2,
       name: 'Shirley Hand',
-      position: 'CEO',
+      position: 'Accounting',
       borderColor: '#FFBE21',
     },
     {
@@ -199,7 +199,7 @@ export const testimonials = {
         'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       image: AvatarImg3,
       name: 'Dr. Olivia Hansen',
-      position: 'CEO',
+      position: 'Surgeon',
       borderColor: '#4756DF',
     },
     {
@@ -207,7 +207,7 @@ export const testimonials = {
         'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       image: AvatarImg4,
       name: 'Aubrey Sanford',
-      position: 'CEO',
+      position: 'Lead Investor',
       borderColor: '#3EC1F3',
     },
     {
@@ -215,7 +215,7 @@ export const testimonials = {
         'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
       image: AvatarImg5,
       name: 'Terri Conroy',
-      position: 'CEO',
+      position: 'Marketing',
       borderColor: '#BB7259',
     },
   ],
