@@ -19,7 +19,10 @@ const Pricing = () => {
       <div className="container mx-auto">
         
         {/* Title */}
-        <h2 className="h2 mb-10 lg:mb-20 text-center">
+        <h2 className="h2 mb-10 lg:mb-20 text-center" 
+          data-aos='fade-up'
+          data-aos-delay='200'
+        >
           { title }
         </h2>
         
@@ -31,7 +34,12 @@ const Pricing = () => {
               
               // Card
               return ( 
-                <div key={cardIndex}>
+                <div 
+                  key={cardIndex}
+                  data-aos='fade-up'
+                  data-aos-delay={ delay }
+                  data-aos-offset='300'
+                >
                   <div 
                     onClick={() => setIndex(cardIndex)}
                     className={`${
