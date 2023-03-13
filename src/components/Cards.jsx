@@ -18,7 +18,7 @@ const Cards = () => {
   return (
     <>
       {/* Cards */}
-      <div className="flex flex-col gap-y-[30px] lg:flex-row lg:gap-x-[30px]">
+      <div className="flex flex-col gap-y-[30px] lg:flex-row lg:gap-x-[30px] justify-around">
       
       { cards.map((card, cardIndex) => {
         

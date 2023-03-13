@@ -30,21 +30,21 @@ import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
 
 export const header = {
   logo: LogoImg,
-  btnText: 'Request a demo',
+  btnText: 'Request a Demo',
 };
 
 export const nav = [
   { name: 'Features', href: '/' },
-  { name: 'About us', href: '/' },
+  { name: 'About Us', href: '/' },
   { name: 'Pricing', href: '/' },
   { name: 'Feedback', href: '/' },
 ];
 
 export const hero = {
-  title: 'Track your Expenses to Save Money',
-  subtitle: 'Helps you to organize your income and expenses',
-  btnText: 'Try free demo',
-  compText: '— Web, iOS and Android',
+  title: 'Track Your Expenses & Save Money',
+  subtitle: 'Help organize your income and expenses!',
+  btnText: 'Try Free Demo',
+  compText: '— Web, iOS & Android',
   image: HeroImg,
 };
 
@@ -76,29 +76,29 @@ export const overview = {
 
 export const features = {
   feature1: {
-    pretitle: 'Always online',
+    pretitle: 'Stay online',
     title: 'Real-time support with cloud',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-    btnLink: 'Learn more',
+    btnLink: 'Learn More',
     btnIcon: ArrowRightImg,
     image: Feature1Img,
   },
   feature2: {
-    pretitle: 'Free some cost',
+    pretitle: 'Save on costs',
     title: 'Save cost for you and family',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-    btnLink: 'Learn more',
+    btnLink: 'Learn More',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
   },
   feature3: {
-    pretitle: 'Use anytime',
+    pretitle: '24/7 Access',
     title: 'Use anytime when you need',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-    btnLink: 'Learn more',
+    btnLink: 'Learn More',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
   },
@@ -111,13 +111,13 @@ export const product = {
   cards: [
     {
       icon: CardIconImg1,
-      title: 'Cross platform',
+      title: 'Cross Platform',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 200,
     },
     {
       icon: CardIconImg2,
-      title: 'Cloud server',
+      title: 'Cloud Server',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 400,
     },
@@ -137,13 +137,13 @@ export const pricing = {
       icon: PricingIcon1,
       title: 'Starter Plan',
       services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
+        { name: 'Store 20 GB of data' },
+        { name: 'Export to PDF, XLS & CSV' },
         { name: 'Cloud server support' },
       ],
       price: '$9.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
+      userAmount: 'Single User Access Only',
+      btnText: 'Get This',
       delay: 300,
     },
     {
@@ -151,12 +151,12 @@ export const pricing = {
       title: 'Silver Plan',
       services: [
         { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
+        { name: 'Export to PDF, XLS & CSV' },
         { name: 'Cloud server support' },
       ],
       price: '$19.99',
       userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
+      btnText: 'Get This',
       delay: 600,
     },
     {
@@ -164,19 +164,19 @@ export const pricing = {
       title: 'Diamond Plan',
       services: [
         { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
+        { name: 'Export to PDF, XLS & CSV' },
         { name: 'Cloud server support' },
       ],
       price: '$29.99',
       userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
+      btnText: 'Get This',
       delay: 900,
     },
   ],
 };
 
 export const testimonials = {
-  title: 'We have millions of best wishers',
+  title: 'New happy customers everyday!',
   clients: [
     {
       message:
@@ -222,9 +222,9 @@ export const testimonials = {
 };
 
 export const cta = {
-  title: '20M+ downloaded from 32 different countries',
-  subtitle: 'Try demo for 7 days with full features.',
-  btnText: 'Try free demo',
+  title: '20M+ downloads across 32 different countries!',
+  subtitle: 'Try a full featured demo for 7 days today!',
+  btnText: 'Try Free Demo',
   img1: CtaImg1,
   img2: CtaImg2,
 };
@@ -233,26 +233,26 @@ export const footer = {
   logo: LogoImg,
   links: [
     { name: 'Home', href: '/' },
-    { name: 'About us', href: '/' },
+    { name: 'About Us', href: '/' },
     { name: 'Careers', href: '/' },
     { name: 'Pricing', href: '/' },
     { name: 'Features', href: '/' },
     { name: 'Blog', href: '/' },
   ],
   legal: [
-    { name: 'Terms of use', href: '/' },
-    { name: 'Terms of conditions', href: '/' },
-    { name: 'Privacy policy', href: '/' },
-    { name: 'Cookie policy', href: '/' },
+    { name: 'Terms of Use', href: '/' },
+    { name: 'Terms of Conditions', href: '/' },
+    { name: 'Privacy Policy', href: '/' },
+    { name: 'Cookie Policy', href: '/' },
   ],
   newsletter: {
     title: 'Newsletter',
-    subtitle: 'Over 25000 people have subscribed',
+    subtitle: 'Over 25,000 people have subscribed!',
   },
   form: {
-    placeholder: 'Enter your email',
+    placeholder: 'Enter Your Email',
     btnText: 'Subscribe',
-    smallText: 'We don’t sell your email and spam',
+    smallText: 'We don’t sell your data or send you spam.',
   },
 };
 
@@ -262,10 +262,10 @@ export const copyright = {
     href: '/',
   },
   link2: {
-    name: 'Contact us',
+    name: 'Contact Us',
     href: '/',
   },
-  copyText: 'Copyright @ 2022 xpence',
+  copyText: 'Copyright @ 2022 Xpense',
   social: [
     { icon: FacebookIcon, href: '/' },
     { icon: TwitterIcon, href: '/' },
