@@ -44,7 +44,7 @@ export const hero = {
   title: 'Track Your Expenses & Save Money',
   subtitle: 'Help organize your income and expenses!',
   btnText: 'Try Free Demo',
-  compText: '— Web, iOS & Android',
+  compText: '— Web, iOS + Android',
   image: HeroImg,
 };
 
