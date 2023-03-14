@@ -77,7 +77,7 @@ export const overview = {
 export const features = {
   feature1: {
     pretitle: 'Stay online',
-    title: 'Real-time support with cloud',
+    title: 'Real-time Support with Cloud',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn More',
@@ -86,7 +86,7 @@ export const features = {
   },
   feature2: {
     pretitle: 'Save on costs',
-    title: 'Save cost for you and family',
+    title: 'Cut Costs For You & Your Family',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn More',
@@ -95,7 +95,7 @@ export const features = {
   },
   feature3: {
     pretitle: '24/7 Access',
-    title: 'Use anytime when you need',
+    title: 'There For You When In Need',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn More',
@@ -105,7 +105,7 @@ export const features = {
 };
 
 export const product = {
-  title: 'The Product we work with.',
+  title: 'Something For Everyone ',
   subtitle:
     'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
   cards: [
@@ -131,15 +131,15 @@ export const product = {
 };
 
 export const pricing = {
-  title: 'Choose your flexible plan.',
+  title: 'Choose From Our Flexible Plans',
   cards: [
     {
       icon: PricingIcon1,
       title: 'Starter Plan',
       services: [
-        { name: 'Store 20 GB of data' },
+        { name: 'Store 20 GB of Data' },
         { name: 'Export to PDF, XLS & CSV' },
-        { name: 'Cloud server support' },
+        { name: 'Cloud Server Support' },
       ],
       price: '$9.99',
       userAmount: 'Single User Access Only',
@@ -150,12 +150,12 @@ export const pricing = {
       icon: PricingIcon2,
       title: 'Silver Plan',
       services: [
-        { name: 'Store unlimited data' },
+        { name: 'Store 200 GB of Data' },
         { name: 'Export to PDF, XLS & CSV' },
-        { name: 'Cloud server support' },
+        { name: 'Cloud Server Support' },
       ],
       price: '$19.99',
-      userAmount: 'up to 3 user + 1.99 per user',
+      userAmount: 'Up to 3 Users',
       btnText: 'Get This',
       delay: 600,
     },
@@ -163,12 +163,12 @@ export const pricing = {
       icon: PricingIcon3,
       title: 'Diamond Plan',
       services: [
-        { name: 'Store unlimited data' },
+        { name: 'Store Unlimited Data' },
         { name: 'Export to PDF, XLS & CSV' },
-        { name: 'Cloud server support' },
+        { name: 'Cloud Server Support' },
       ],
       price: '$29.99',
-      userAmount: 'up to 3 user + 1.99 per user',
+      userAmount: 'Up to 5 Users',
       btnText: 'Get This',
       delay: 900,
     },
@@ -222,8 +222,8 @@ export const testimonials = {
 };
 
 export const cta = {
-  title: '20M+ downloads across 32 different countries!',
-  subtitle: 'Try a full featured demo for 7 days today!',
+  title: '20M+ Downloads Across 32 Different Countries!',
+  subtitle: 'Try A Full Featured Demo For 7 Days Today!',
   btnText: 'Try Free Demo',
   img1: CtaImg1,
   img2: CtaImg2,
@@ -252,7 +252,7 @@ export const footer = {
   form: {
     placeholder: 'Enter Your Email',
     btnText: 'Subscribe',
-    smallText: 'We don’t sell your data or send you spam.',
+    smallText: 'We won’t sell your data or send you spam.',
   },
 };
 
