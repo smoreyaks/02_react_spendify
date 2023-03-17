@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Hind Siliguri',
+      secondary: ['Lobster', 'cursive'],
     },
     container: {
       padding: {
@@ -24,9 +25,12 @@ module.exports = {
       colors: {
         dark: '#292830',
         light: '#BDBDBD',
-        accent: '#FF7235',
-        accentHover: '#e05216',
+        accent: '#ef5350',
+        accentHover: '#ba3e3f',
         grey: '#F5F5F5',
+        logoRed: '#EF5350',
+        logoYellow: '#EF5350',
+        logoIndigo: '#6e6eff',
       },
       backgroundImage: {
         overview: "url('/src/assets/img/overview/bg.svg')",
