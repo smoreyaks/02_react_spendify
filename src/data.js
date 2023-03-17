@@ -265,7 +265,7 @@ export const copyright = {
     name: 'Contact Us',
     href: '/',
   },
-  copyText: 'Copyright @ 2022 Xpense',
+  copyText: 'Copyright @ 2022 Spendify',
   social: [
     { icon: FacebookIcon, href: '/' },
     { icon: TwitterIcon, href: '/' },
