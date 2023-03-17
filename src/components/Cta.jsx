@@ -11,7 +11,7 @@ const Cta = () => {
   // Destructure CTA Data
   const { title, subtitle, btnText, img1, img2} = cta
   return (
-    <section className='section bg-cta bg-cover bg-left-top'>
+    <section className='section bg-gradient-to-br from-blue-300 via-orange-300 to-red-400 bg-cover bg-left-top'>
       <div className='max-w-[1340px] mx-auto px-[25px]'>
         
         {/* Text */}
@@ -32,7 +32,7 @@ const Cta = () => {
           {/* Button & Images */}
           <div className='flex justify-around'>
             <img 
-              className='hidden xl:flex' src={ img1 } alt=""
+              className='hidden xl:flex object-contain h-96' src={ img1 } alt=""
               data-aos='zoom-out-right'
               data-aos-delay='700'
             />
@@ -45,7 +45,7 @@ const Cta = () => {
               <HiOutlineChevronDown />
             </button>
             <img 
-              className='hidden xl:flex' src={ img2 } alt=""
+              className='hidden xl:flex object-contain h-96' src={ img2 } alt=""
               data-aos='zoom-out-left'
               data-aos-delay='700'
             />
