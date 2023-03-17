@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Paytone One', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Titan One', cursive; 
+*/
+
+
 @layer base {
   body {
     @apply font-primary text-lg;
@@ -12,7 +21,7 @@
   h4,
   h5,
   h6 {
-    @apply text-dark;
+    @apply text-dark font-secondary;
   }
   .title,
   .section-title {
