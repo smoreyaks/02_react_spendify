@@ -21,7 +21,9 @@ const Footer = () => {
             data-aos-offset='200'
             data-aos-delay='300'
           >
-            <img src={logo} alt="" />
+            <img 
+              className='object-fit h-20'
+              src={logo} alt="" />
           </div>
           {/* List 1 */}
           <div 

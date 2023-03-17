@@ -38,7 +38,7 @@ const Header = () => {
           data-aos-delay='1000' 
           href="#"
         >
-          <img src={logo} alt="" />
+          <img className='object-fit h-20' src={logo} alt="" />
         </a>
         
         {/* Navigation - Hidden on Mobile, shows on Desktop */}
