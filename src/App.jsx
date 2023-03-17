@@ -27,7 +27,7 @@ const App = () => {
   })
   
   return (
-    <div className='overflow-hidden bg-orange-100'>
+    <div className='overflow-hidden bg-white'>
       <Header />
       <Hero />
       <Overview />
