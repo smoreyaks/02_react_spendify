@@ -12,7 +12,6 @@ const Hero = () => {
   const { title, subtitle, btnText, compText, image } = hero;
   return (
     <section className="min-h-[900px] py-12">
-      
       <div className="container mx-auto min-h-[900px] flex justify-center items-center contentBox" data-aos="fade-up"
               data-aos-delay="200"
             >
