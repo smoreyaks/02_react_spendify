@@ -12,13 +12,15 @@ const Feature3 = () => {
   const { pretitle, title, subtitle, btnLink, btnIcon, image } = feature3;
   return (
     <section className='section'>
-      <div className="container mx-auto">
+      <div className="container mx-auto contentBox" data-aos="fade-up"
+              data-aos-delay="200"
+            >
         <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
           
           {/* Text */}
           <div className="flex-1" data-aos="fade-right" data-aos-offset="400"> 
-            <div className='pretitle'>{ pretitle }</div>
             <h2 className='title'>{ title }</h2>
+            <div className='pretitle'>{ pretitle }</div>
             <p className='lead'>{ subtitle }</p>
             
             {/* Learn More Button */}
