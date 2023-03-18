@@ -12,27 +12,19 @@ const Footer = () => {
   const { logo, links, legal, newsletter, form } = footer;
   return (
     <footer className='pt-[142px] pb-[60px]'>
-      <div className="container mx-auto">
-        <div className='flex flex-col items-center text-center lg:flex-row lg:items-start lg:text-left lg:justify-between gap-y-8'>
+      <div className="container mx-auto contentBox" data-aos="fade-up"
+              data-aos-delay="200"
+            >
+        <div className='flex flex-col items-center text-center lg:flex-row lg:items-start lg:text-left lg:justify-evenly gap-y-8'>
           
-          {/* Logo */}
-          <div 
-            data-aos='fade-up'
-            data-aos-offset='200'
-            data-aos-delay='300'
-          >
-            <img 
-              className='object-fit h-20'
-              src={logo} alt="" />
-          </div>
           {/* List 1 */}
           <div 
             data-aos='fade-up'
             data-aos-offset='200'
             data-aos-delay='500'
           >
-            <div className='text-2xl uppercase font-medium mb-6'>Links</div>
-            <ul className='flex flex-col gap-y-3'>
+            <div className='text-2xl uppercase font-bold mb-6 px-10 '>Links</div>
+            <ul className='flex flex-col gap-y-3 px-10 '>
               { links.map((item, index) => {
                 
                 // Destructure Item
@@ -40,20 +32,21 @@ const Footer = () => {
                 return (
                   <li key={ index }>
                     <a 
-                      className='font-medium hover:text-accent transition'
+                      className='font-semibold hover:text-accent transition'
                       href={ href }>{ name }</a>
                   </li>
                 )
               })}
             </ul>
           </div>
+          
           {/* List 2 */}
           <div 
             data-aos='fade-up'
             data-aos-offset='200'
             data-aos-delay='700'
           >
-            <div className='text-2xl uppercase font-medium mb-6'>Legal</div>
+            <div className='text-2xl uppercase font-bold mb-6'>Legal</div>
             <ul className='flex flex-col gap-y-3'>
               { legal.map((item, index) => {
                 
@@ -62,7 +55,7 @@ const Footer = () => {
                 return (
                   <li key={ index }>
                     <a 
-                      className='font-medium hover:text-accent transition'
+                      className='font-semibold hover:text-accent transition'
                       href={ href }>{ name }</a>
                   </li>
                 )
@@ -75,7 +68,7 @@ const Footer = () => {
             data-aos='fade-up'
             data-aos-offset='200'
             data-aos-delay='900'>
-            <div className='text-2xl uppercase font-medium mb-6'>{ newsletter.title }</div>
+            <div className='text-2xl uppercase font-bold mb-6'>{ newsletter.title }</div>
             <div className='text-xl text-light mb-[18px]'>{ newsletter.subtitle }</div>
             
             {/* Form */}
@@ -97,7 +90,20 @@ const Footer = () => {
           data-aos-offset='100'
           data-aos-delay='200'
         />
-        <Copyright />
+        <div className='flex flex-col items-center text-center lg:flex-row lg:items-center lg:text-left lg:justify-center gap-y-8'>
+          
+          {/* Logo */}
+          <div 
+            data-aos='fade-up'
+            // data-aos-offset='200'
+            data-aos-delay='300'
+          >
+            <img 
+              className='object-fit h-20'
+              src={ logo } alt="" />
+          </div>
+          <Copyright />
+        </div>
       </div>
     </footer>
   )
