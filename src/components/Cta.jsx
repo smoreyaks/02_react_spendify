@@ -12,7 +12,9 @@ const Cta = () => {
   const { title, subtitle, btnText, img1, img2} = cta
   return (
     <section className='section bg-gradient-to-br from-blue-300 via-orange-300 to-red-400 bg-cover bg-left-top'>
-      <div className='max-w-[1340px] mx-auto px-[25px]'>
+      <div className='container max-w-[1340px] mx-auto px-[25px] contentBox' data-aos="fade-up"
+              data-aos-delay="200"
+            >
         
         {/* Text */}
         <div className='max-w-[920px] mx-auto text-center'>

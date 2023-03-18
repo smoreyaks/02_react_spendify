@@ -12,7 +12,9 @@ const Product = () => {
   
   return  (
     <section>
-      <div className="container mx-auto">
+      <div className="container mx-auto contentBox" data-aos="fade-up"
+              data-aos-delay="200"
+            >
         
         {/* Title & Subtitle */}
         <div className='flex flex-col items-center lg:flex-row mb-10 lg:mb-20'>

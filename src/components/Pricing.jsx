@@ -16,7 +16,9 @@ const Pricing = () => {
 
   return (
     <div className='section'>
-      <div className="container mx-auto">
+      <div className="container mx-auto contentBox" data-aos="fade-up"
+              data-aos-delay="200"
+            >
         
         {/* Title */}
         <h2 className="h2 mb-10 lg:mb-20 text-center" 

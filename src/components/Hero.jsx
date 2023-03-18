@@ -12,7 +12,10 @@ const Hero = () => {
   const { title, subtitle, btnText, compText, image } = hero;
   return (
     <section className="min-h-[900px] py-12">
-      <div className="container mx-auto min-h-[900px] flex justify-center items-center">
+      
+      <div className="container mx-auto min-h-[900px] flex justify-center items-center contentBox" data-aos="fade-up"
+              data-aos-delay="200"
+            >
         <div className="flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row items-center justify-center text-center lg:text-left">
 
           {/* Hero Title Text */}

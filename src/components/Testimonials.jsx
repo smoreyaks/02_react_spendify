@@ -12,7 +12,9 @@ const Testimonials = () => {
   const { title, clients } = testimonials;
   return (
     <section className='section'>
-      <div className="container mx-auto">
+      <div className="container mx-auto contentBox" data-aos="fade-up"
+              data-aos-delay="200"
+            >
 
         {/* Title */}
         <h2 
