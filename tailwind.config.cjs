@@ -12,7 +12,7 @@ module.exports = {
     container: {
       padding: {
         DEFAULT: '1rem',
-        lg: '30px',
+        lg: '100px',
       },
     },
     screens: {
@@ -31,10 +31,15 @@ module.exports = {
         logoRed: '#EF5350',
         logoYellow: '#EF5350',
         logoIndigo: '#6e6eff',
+        neutral: '#F7F7F7',
       },
       backgroundImage: {
-        overview: "url('/src/assets/img/overview/bg.svg')",
+        hero: "url('/src/assets/img/hero/14667909_5516774.jpg')",
+        overview: "url('/src/assets/img/hero/14667909_5516774.jpg')",
         cta: "url('/src/assets/img/cta/bg.svg')",
+      },
+      scale: {
+        'Y': 'scaleX(-1)',
       },
     },
   },
