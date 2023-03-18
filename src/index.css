@@ -13,7 +13,7 @@
 
 @layer base {
   body {
-    @apply font-primary text-lg;
+    @apply font-primary text-lg font-bold;
   }
   h1,
   h2,
@@ -31,10 +31,10 @@
     @apply text-5xl lg:text-7xl font-bold;
   }
   .pretitle {
-    @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-normal;
+    @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-semibold;
   }
   .lead {
-    @apply text-2xl text-light font-normal mb-6;
+    @apply text-2xl text-light font-semibold mb-6;
   }
   .link {
     @apply text-lg text-dark;
@@ -65,5 +65,8 @@
   }
   .btn-link {
     @apply text-accent text-xl lg:text-2xl;
+  }
+  .contentBox {
+    @apply  bg-neutral rounded-3xl lg:py-20 shadow-md transition-shadow ;
   }
 }
