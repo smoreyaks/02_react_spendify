@@ -34,9 +34,9 @@ const Cards = () => {
             <div
               onClick={() => setIndex(cardIndex)}
               className={`${
-                index === cardIndex && 'bg-white shadow-2xl'
+                index === cardIndex ? 'bg-white shadow-2xl' : 'shadow-md'
               }
-                w-[350px] h-[350px] flex flex-col justify-center items-center mx-auto p-[65px] text-center rounded-[12px] cursor-pointer transition-all`}
+                w-[350px] h-[350px] flex flex-col justify-center items-center mx-auto p-[65px] text-center rounded-[12px] cursor-pointer transition-all bg-white`}
             > 
 
               {/* Card Icon */}
