@@ -15,13 +15,13 @@ const Pricing = () => {
   const { title, cards } = pricing;
 
   return (
-    <div className='section'>
+    <section className='section'>
       <div className="container mx-auto contentBox" data-aos="fade-up"
               data-aos-delay="200"
             >
         
         {/* Title */}
-        <h2 className="h2 mb-10 lg:mb-20 text-center" 
+        <h2 className="h2 mb-10 lg:mb-20 text-center px-10" 
           data-aos='fade-up'
           data-aos-delay='200'
         >
@@ -45,8 +45,8 @@ const Pricing = () => {
                   <div 
                     onClick={() => setIndex(cardIndex)}
                     className={`${
-                      cardIndex === index ? 'bg-white shadow-2xl' : 'border border-grey' } 
-                      w-[350px] h-[500px] rounded-[12px] p-[40px] cursor-pointer transition-all`}
+                      cardIndex === index ? 'bg-white shadow-2xl' : 'shadow-md' } 
+                      w-[350px] h-[500px] rounded-[12px] p-[40px] cursor-pointer transition-all bg-white`}
                   >
                     
                     {/* Card Icon */}
@@ -99,7 +99,7 @@ const Pricing = () => {
             })}
         </div>
       </div>
-    </div>
+    </section>
   )
 };
 
