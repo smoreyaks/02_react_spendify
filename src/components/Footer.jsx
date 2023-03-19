@@ -99,7 +99,7 @@ const Footer = () => {
             data-aos-delay='300'
           >
             <img 
-              className='object-fit h-20'
+              className='object-fit h-7'
               src={ logo } alt="" />
           </div>
           <Copyright />
