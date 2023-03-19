@@ -28,9 +28,9 @@ const Header = () => {
   
   return (
     <header 
-      className={`${isActive ? 'lg:top-0 bg-white shadow-2xl' : 'lg:top-[60px]'} py-6 lg:py-4 fixed w-full transition-all z-10`}
+      className={`${isActive ? 'lg:top-0 bg-neutral shadow-lg' : 'top-[60px]'} py-6 lg:py-4 fixed w-full transition-all z-10`}
     >
-      <div className='container mx-auto flex justify-between items-center'>
+      <div className='container mx-auto px-12 lg:px-[100px] flex justify-between items-center'>
         
         {/* Logo */}
         <a
@@ -38,7 +38,7 @@ const Header = () => {
           data-aos-delay='1000' 
           href="#"
         >
-          <img className='object-fit h-20' src={logo} alt="" />
+          <img className='object-fit h-7' src={logo} alt="" />
         </a>
         
         {/* Navigation - Hidden on Mobile, shows on Desktop */}
@@ -73,7 +73,7 @@ const Header = () => {
         {/* Mobile Navigation - Hidden on Mobile, shows on Desktop */}
         {/* ***** CHECK STYLING IF BROKEN ***** */}
         <div className={`${
-          mobileNav ? 'left-0' : '-left-full' } fixed top-0 bottom-0 bg-pink-400 w-[60vw] lg:hidden transition-all `}
+          mobileNav ? 'left-0' : '-left-full' } fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all `}
         >
           <MobileNav />
         </div>
