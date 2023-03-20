@@ -10,7 +10,7 @@ const Brands = () => {
   
   return ( 
     <section className='py-9'>
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-6">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-x-10">
         {/* Brands */}
         { brands.map((item, index) => {
           // Destructure Item
