@@ -15,24 +15,26 @@ const Feature1 = () => {
       <div className="container mx-auto contentBox" data-aos="fade-up"
               data-aos-delay="200"
             >
-        <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
+        <div className='flex flex-col justify-start lg:justify-end lg:flex-row lg:items-center lg:gap-x-[30px]'>
           
           {/* Text */}
           <div className="flex-1" data-aos="fade-right" data-aos-offset="400"> 
-            <h2 className='title'>{ title }</h2>
-            <div className='pretitle'>{ pretitle }</div>
+            <h2 className='title text-center'>{ title }</h2>
+            <div className='text-center pretitle'>{ pretitle }</div>
             <p className='lead'>{ subtitle }</p>
             
             {/* Learn More Button */}
-            <button className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all'>
-              { btnLink } 
-              <img src={ btnIcon } alt='' />
-            </button>
+            <div className='flex justify-center lg:flex-none'>
+              <button className='btn btn-md btn-outline btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all'>
+                { btnLink } 
+                <img src={ btnIcon } alt='' />
+              </button>
+            </div>
           </div>
           
           {/* Image */}
-          <div className="flex-1" data-aos="fade-left" data-aos-offset="300">
-            <img src={image} alt="" />
+          <div className="flex-1 h-auto" data-aos="fade-left" data-aos-offset="300">
+            <img className='lg:scale-100' src={image} alt="" />
           </div>
         </div>
       </div>

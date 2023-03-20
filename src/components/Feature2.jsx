@@ -15,7 +15,7 @@ const Feature2 = () => {
       <div className="container mx-auto contentBox" data-aos="fade-up"
               data-aos-delay="200"
             >
-        <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
+        <div className='flex flex-col text-center lg:flex-row lg:items-center lg:gap-x-[30px]'>
           
           {/* Image */}
           <div 
@@ -37,10 +37,12 @@ const Feature2 = () => {
             <p className='lead'>{ subtitle }</p>
             
             {/* Learn More Button */}
-            <button className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all'>
-              { btnLink } 
-              <img src={ btnIcon } alt='' />
-            </button>
+            <div className="flex justify-center">
+              <button className='btn btn-md btn-outline btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all'>
+                { btnLink } 
+                <img src={ btnIcon } alt='' />
+              </button>
+            </div>
           </div>
         </div>
       </div>
