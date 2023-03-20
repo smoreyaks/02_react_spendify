@@ -30,13 +30,12 @@ const App = () => {
     <div className='overflow-hidden bg-neutral bg-hero bg-repeat bg-left'>
       <Header />
       <Hero />
-      <Overview />
-      <Brands />
       <Feature1 />
       <Feature2 />
       <Feature3 />
       <Product />
       <Pricing />
+      <Overview />
       <Testimonials />
       <Cta />
       <Footer />
