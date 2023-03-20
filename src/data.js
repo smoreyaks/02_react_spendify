@@ -49,6 +49,7 @@ export const hero = {
 };
 
 export const overview = {
+  title: 'Join Our Major Partners',
   productImg: OverviewProductImg,
   brands: [
     {
@@ -77,7 +78,7 @@ export const overview = {
 export const features = {
   feature1: {
     pretitle: 'Stay online',
-    title: 'Real-time Support with Cloud',
+    title: 'Real-time Cloud Support',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn More',
@@ -95,7 +96,7 @@ export const features = {
   },
   feature3: {
     pretitle: '24/7 Access',
-    title: 'There For You When In Need',
+    title: 'Always There For You',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn More',
@@ -140,9 +141,9 @@ export const pricing = {
         { name: 'Store 20 GB of Data' },
         { name: 'Export to PDF, XLS & CSV' },
         { name: 'Cloud Server Support' },
+        { name: 'Single User Access Only' },
       ],
       price: '$9.99',
-      userAmount: 'Single User Access Only',
       btnText: 'Get This',
       delay: 300,
     },
@@ -153,9 +154,9 @@ export const pricing = {
         { name: 'Store 200 GB of Data' },
         { name: 'Export to PDF, XLS & CSV' },
         { name: 'Cloud Server Support' },
+        { name: 'Up to 3 Users' },
       ],
       price: '$19.99',
-      userAmount: 'Up to 3 Users',
       btnText: 'Get This',
       delay: 600,
     },
@@ -166,9 +167,9 @@ export const pricing = {
         { name: 'Store Unlimited Data' },
         { name: 'Export to PDF, XLS & CSV' },
         { name: 'Cloud Server Support' },
+        { name: 'Up to 5 Users' },
       ],
       price: '$29.99',
-      userAmount: 'Up to 5 Users',
       btnText: 'Get This',
       delay: 900,
     },
@@ -176,7 +177,7 @@ export const pricing = {
 };
 
 export const testimonials = {
-  title: 'New happy customers everyday!',
+  title: 'New Happy Customers Everyday!',
   clients: [
     {
       message:
