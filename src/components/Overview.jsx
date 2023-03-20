@@ -4,22 +4,25 @@ import React from 'react';
 // Data
 import { overview } from '../data';
 
+// Components
+import Brands from './Brands'
+
 const Overview = () => {
   // Destructure Overview Data
-  const { productImg } = overview;
+  const { productImg, title } = overview;
   return (
-    <section className='lg:min-h-[712px] bg-left-top pt-[30px] lg:pt-[87px]'>
-      <div className='container mx-auto flex justify-end items-center overflow-hidden contentBox' data-aos="fade-up"
+    <section className='lg:min-h-[712px] pt-[30px] lg:pt-[87px] section'>
+      <div className='container mx-auto flex flex-col justify-center items-center overflow-hidden contentBox' data-aos="fade-up"
               data-aos-delay="200"
-            >
-      {/* <a href="https://www.vecteezy.com/free-vector/background"></a> */}
-      {/* Background Vectors by Vecteezy */}
-        <img 
+              >
+        <h2 className='title flex text-center'>{ title }</h2>
+        <Brands />
+        {/* <img 
           src={productImg} 
           alt=""
           data-aos='fade-up'
           data-aos-offset='300'
-        />
+        /> */}
       </div>
     </section>
   )
