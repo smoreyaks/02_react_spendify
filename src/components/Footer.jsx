@@ -11,7 +11,7 @@ const Footer = () => {
   // Destructure Footer Data
   const { logo, links, legal, newsletter, form } = footer;
   return (
-    <footer className='pt-[142px] pb-[60px]'>
+    <footer className='pt-[142px] pb-[60px] section'>
       <div className="container mx-auto contentBox" data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -88,7 +88,7 @@ const Footer = () => {
           className='mt-10 mb-5'
           data-aos='fade-up'
           data-aos-offset='100'
-          data-aos-delay='200'
+          data-aos-delay='1100'
         />
         <div className='flex flex-col items-center text-center lg:flex-row lg:items-center lg:text-left lg:justify-center gap-y-8'>
           
@@ -96,7 +96,7 @@ const Footer = () => {
           <div 
             data-aos='fade-up'
             // data-aos-offset='200'
-            data-aos-delay='300'
+            data-aos-delay='1300'
           >
             <img 
               className='object-fit h-7'
