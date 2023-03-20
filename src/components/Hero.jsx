@@ -11,14 +11,14 @@ const Hero = () => {
   // Destructure Hero Data
   const { title, subtitle, btnText, compText, image } = hero;
   return (
-    <section className="min-h-[900px] py-12">
-      <div className="container mx-auto min-h-[900px] flex justify-center items-center contentBox" data-aos="fade-up"
+    <section className="min-h-[900px] py-12 section">
+      <div className="container mx-auto min-h-[900px] flex justify-around items-center contentBox" data-aos="fade-up"
               data-aos-delay="200"
-            >
-        <div className="flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row items-center justify-center text-center lg:text-left">
-
+      >
+        <div className="flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row items-center justify-between text-center lg:text-left">
+          
           {/* Hero Title Text */}
-          <div className="flex-1">
+          <div className="flex-1 text-center">
             <h1
               className="title mb-2 lg:mb-5"
               data-aos="fade-down"
