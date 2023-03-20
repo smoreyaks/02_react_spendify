@@ -17,16 +17,16 @@ const Product = () => {
             >
         
         {/* Title & Subtitle */}
-        <div className='flex flex-col items-center lg:flex-row mb-10 lg:mb-20'>
+        <div className='flex flex-col justify-between items-center mb-10'>
           <h2 
-            className='section-title' 
+            className='title' 
             data-aos='fade-up' 
             data-aos-offset='400' 
             data-aos-delay='400'
           >
             { title }
           </h2>
-          <p className='lead lg:max-w-[350px]' 
+          <p className='lead' 
             data-aos='fade-up' 
             data-aos-offset='400' 
             data-aos-delay='400'
