@@ -77,7 +77,7 @@ export const overview = {
 
 export const features = {
   feature1: {
-    pretitle: 'Stay online',
+    pretitle: 'Stay Online',
     title: 'Real-time Cloud Support',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
@@ -86,7 +86,7 @@ export const features = {
     image: Feature1Img,
   },
   feature2: {
-    pretitle: 'Save on costs',
+    pretitle: 'Save On Costs',
     title: 'Cut Costs For You & Your Family',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
@@ -108,7 +108,7 @@ export const features = {
 export const product = {
   title: 'Something For Everyone ',
   subtitle:
-    'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
+    'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut. Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
   cards: [
     {
       icon: CardIconImg1,
