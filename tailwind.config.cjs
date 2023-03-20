@@ -11,8 +11,8 @@ module.exports = {
     },
     container: {
       padding: {
-        DEFAULT: '1rem',
-        lg: '100px',
+        DEFAULT: '2rem',
+        lg: '50px',
       },
     },
     screens: {
@@ -22,6 +22,9 @@ module.exports = {
       xl: '1170px',
     },
     extend: {
+      flex: {
+        half: '1 0.5 100%',
+      },
       colors: {
         dark: '#292830',
         light: '#BDBDBD',
@@ -39,7 +42,7 @@ module.exports = {
         cta: "url('/src/assets/img/cta/bg.svg')",
       },
       scale: {
-        'Y': 'scaleX(-1)',
+        '25': '0.25',
       },
     },
   },
