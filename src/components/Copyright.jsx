@@ -12,7 +12,7 @@ const Copyright = () => {
       className='flex flex-col lg:flex-row items-center gap-y-2 lg:flex lg:justify-between lg:px-6'
       data-aos='fade-up'
       data-aos-offset=' 0'
-      data-aos-delay='200'
+      data-aos-delay='1300'
     >
       
       {/* links */}
