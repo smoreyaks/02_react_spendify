@@ -59,7 +59,7 @@ const Pricing = () => {
                                             ? "bg-white shadow-2xl"
                                             : "shadow-md bg-[#FEFEFE]"
                                     } 
-                                    min-w-[230px] h-[500px] rounded-[12px] p-[40px] cursor-pointer transition-all bg-white`}
+                                    min-w-[230px] min-h-[500px] rounded-[12px] p-[40px] cursor-pointer transition-all bg-white`}
                                 >
                                     {/* Card Title Row */}
                                     <div className="flex flex-row justify-between">
