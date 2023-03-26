@@ -23,7 +23,7 @@ const Pricing = () => {
             >
                 {/* Title */}
                 <h2
-                    className="h2 mb-10 lg:mb-20 text-center px-10"
+                    className="h2 mb-10 lg:mb-20 text-center px-10 title"
                     data-aos="fade-up"
                     data-aos-delay="200"
                 >
