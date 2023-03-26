@@ -25,16 +25,13 @@
   }
   .title,
   .section-title {
-    @apply text-6xl lg:text-7xl mb-6 font-bold;
-  }
-  .h2 {
-    @apply text-5xl lg:text-7xl font-bold;
+    @apply text-3xl sm:text-5xl lg:text-7xl mb-6 font-bold;
   }
   .pretitle {
     @apply text-lg lg:text-2xl text-light mb-4 lg:mb-6 font-semibold;
   }
   .lead {
-    @apply text-xl text-light font-semibold mb-6;
+    @apply text-xl text-light mb-6;
   }
   .link {
     @apply text-lg text-dark;
