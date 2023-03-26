@@ -93,7 +93,7 @@ const Footer = () => {
                                     type="text"
                                     placeholder={form.placeholder}
                                 />
-                                <button className="btn btn-sm text-sm sm:text-base bg-accent hover:bg-accentHover w-[102px] text-white ">
+                                <button className="btn btn-xsm sm:btn-sm text-sm sm:text-base bg-accent hover:bg-accentHover w-[102px] text-white ">
                                     {form.btnText}
                                 </button>
                             </div>
