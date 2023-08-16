@@ -20,15 +20,16 @@ const Product = () => {
                 {/* Title & Subtitle */}
                 <div className="flex flex-col justify-between items-center mb-10">
                     <h2
-                        className="title"
+                        className="title text-center"
                         data-aos="fade-up"
                         data-aos-offset="400"
                         data-aos-delay="400"
                     >
                         {title}
                     </h2>
+
                     <p
-                        className="lead"
+                        className="lead text-center"
                         data-aos="fade-up"
                         data-aos-offset="400"
                         data-aos-delay="400"
