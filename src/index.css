@@ -66,4 +66,8 @@
   .contentBox {
     @apply  bg-neutral rounded-3xl py-10 lg:py-20 shadow-sm;
   }
+  .svg-accent:hover, .svg-accent:focus {
+    filter: invert(41%) sepia(62%) saturate(1004%) hue-rotate(322deg) brightness(97%) contrast(94%);
+  }
 }
+
