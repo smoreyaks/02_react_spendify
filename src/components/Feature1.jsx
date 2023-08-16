@@ -26,7 +26,7 @@ const Feature1 = () => {
                     >
                         <h2 className="title text-center">{title}</h2>
                         <div className="text-center pretitle">{pretitle}</div>
-                        <p className="lead">{subtitle}</p>
+                        <p className="lead text-center">{subtitle}</p>
 
                         {/* Learn More Button */}
                         <div className="flex justify-center lg:flex-none">
