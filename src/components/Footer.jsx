@@ -125,10 +125,12 @@ const Footer = () => {
                     data-aos-delay="1300"
                     className="mt-4 text-center"
                 >
-                    <a href="https://www.freepik.com/free-vector/flat-colorful-geometric-background_14667909.htm">
-                        Background Image by pikisuperstar
+                    <a
+                        className="hover:text-accent"
+                        href="https://www.freepik.com/free-vector/flat-colorful-geometric-background_14667909.htm"
+                    >
+                        Background Image by pikisuperstar on Freepik
                     </a>{" "}
-                    on Freepik
                 </div>
             </div>
         </footer>
