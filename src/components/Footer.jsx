@@ -120,6 +120,16 @@ const Footer = () => {
                     </div>
                     <Copyright />
                 </div>
+                <div
+                    data-aos="fade-up"
+                    data-aos-delay="1300"
+                    className="mt-4 text-center"
+                >
+                    <a href="https://www.freepik.com/free-vector/flat-colorful-geometric-background_14667909.htm">
+                        Background Image by pikisuperstar
+                    </a>{" "}
+                    on Freepik
+                </div>
             </div>
         </footer>
     );
