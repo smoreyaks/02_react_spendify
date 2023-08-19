@@ -10,7 +10,7 @@ const Hero = () => {
     // Destructure Hero Data
     const { title, subtitle, btnText, compText, image } = hero;
     return (
-        <section className="min-h-[900px] py-12 section">
+        <section className="min-h-[900px] lg:min-h-[1000px] py-auto section flex align-items">
             <div
                 className="container mx-auto lg:min-h-[700px] flex justify-around items-center contentBox"
                 data-aos="fade-up"
