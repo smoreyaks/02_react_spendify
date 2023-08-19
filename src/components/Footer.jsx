@@ -11,7 +11,7 @@ const Footer = () => {
     // Destructure Footer Data
     const { logo, links, legal, newsletter, form } = footer;
     return (
-        <footer className="pt-[142px] pb-[60px] section">
+        <footer className="section min-h-[900px] py-auto flex items-center">
             <div
                 className="container mx-auto contentBox"
                 data-aos="fade-up"
