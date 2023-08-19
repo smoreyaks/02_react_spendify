@@ -13,7 +13,7 @@ const Cta = () => {
     return (
         <section className="section">
             <div
-                className="container  mx-auto contentBox"
+                className="container mx-auto contentBox"
                 data-aos="fade-up"
                 data-aos-delay="200"
             >
