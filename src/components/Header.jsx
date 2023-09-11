@@ -29,8 +29,8 @@ const Header = () => {
     return (
         <header
             className={`${
-                isActive ? "lg:top-0 bg-neutral shadow-lg" : " top-[170px]"
-            } py-6 lg:py-4 fixed w-full transition-all duration-700 z-10`}
+                isActive ? "lg:top-0 bg-neutral shadow-lg" : " top-[290px]"
+            } py-6 lg:py-8 fixed w-full transition-all duration-700 z-10`}
         >
             <div className="container mx-auto px-12 lg:px-[100px] flex justify-between items-center">
                 {/* Logo */}
