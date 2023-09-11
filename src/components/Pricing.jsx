@@ -15,7 +15,7 @@ const Pricing = () => {
     const { title, cards } = pricing;
 
     return (
-        <section className="section">
+        <section className="section lg:min-h-[100vh] items-center">
             <div
                 className="container mx-auto contentBox"
                 data-aos="fade-up"
