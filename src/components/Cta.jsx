@@ -11,7 +11,10 @@ const Cta = () => {
     // Destructure CTA Data
     const { title, subtitle, btnText, img1, img2 } = cta;
     return (
-        <section className="section lg:min-h-[100vh] items-center">
+        <section
+            id="call-to-action"
+            className="section lg:min-h-[100vh] flex items-center"
+        >
             <div
                 className="container mx-auto contentBox"
                 data-aos="fade-up"
