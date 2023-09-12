@@ -11,7 +11,10 @@ const Testimonials = () => {
     // Destructure Testimonials
     const { title, clients } = testimonials;
     return (
-        <section className="section lg:min-h-[100vh] items-center">
+        <section
+            id="testimonials"
+            className="section lg:min-h-[100vh] flex items-center"
+        >
             <div
                 className="container mx-auto contentBox"
                 data-aos="fade-up"
