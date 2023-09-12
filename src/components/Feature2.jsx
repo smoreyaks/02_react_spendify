@@ -11,7 +11,10 @@ const Feature2 = () => {
     // Destructure Feature 2
     const { pretitle, title, subtitle, btnLink, btnIcon, image } = feature2;
     return (
-        <section className="section lg:min-h-[100vh] items-center">
+        <section
+            id="feature-2"
+            className="section lg:min-h-[100vh] flex items-center"
+        >
             <div
                 className="container mx-auto contentBox"
                 data-aos="fade-up"
