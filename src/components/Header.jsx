@@ -28,6 +28,7 @@ const Header = () => {
 
     return (
         <header
+            id="header-nav"
             className={`${
                 isActive ? "lg:top-0 bg-neutral shadow-lg" : " top-[290px]"
             } py-6 lg:py-8 fixed w-full transition-all duration-700 z-10`}
