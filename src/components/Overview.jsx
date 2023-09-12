@@ -11,7 +11,10 @@ const Overview = () => {
     // Destructure Overview Data
     const { productImg, title } = overview;
     return (
-        <section className="pt-[30px] lg:py-[266px] section  lg:min-h-[100vh] items-center">
+        <section
+            id="overview"
+            className="pt-[30px] lg:py-[266px] section lg:min-h-[100vh] flex items-center"
+        >
             <div
                 className="container mx-auto flex flex-col justify-center items-center overflow-hidden contentBox"
                 data-aos="fade-up"
