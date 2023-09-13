@@ -69,5 +69,22 @@
   .svg-accent:hover, .svg-accent:focus {
     filter: invert(41%) sepia(62%) saturate(1004%) hue-rotate(322deg) brightness(97%) contrast(94%);
   }
+  
+}
+/* Elements */
+.hero {
+  @apply no-underline
+}
+.feature-1 {
+  @apply no-underline
+}
+.feature-2 {
+  @apply no-underline
+}
+.feature-3 {
+  @apply no-underline
+}
+.hero {
+  @apply no-underline
 }
 
