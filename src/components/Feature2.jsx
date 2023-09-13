@@ -13,7 +13,7 @@ const Feature2 = () => {
     return (
         <section
             id="feature-2"
-            className="section lg:min-h-[100vh] flex items-center"
+            className="section lg:min-h-[100vh] flex items-center feature-2"
         >
             <div
                 className="container mx-auto contentBox"

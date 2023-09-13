@@ -12,7 +12,7 @@ const Hero = () => {
     return (
         <section
             id="hero"
-            className="min-h-[900px] lg:min-h-[100vh] py-auto section flex items-center"
+            className="min-h-[900px] lg:min-h-[100vh] py-auto section flex items-center hero"
         >
             <div
                 className="container mx-auto lg:min-h-[700px] flex justify-around items-center contentBox"
