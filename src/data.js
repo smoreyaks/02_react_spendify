@@ -28,6 +28,7 @@ import FacebookIcon from "../src/assets/img/copyright/facebook.svg";
 import TwitterIcon from "../src/assets/img/copyright/twitter.svg";
 import LinkedinIcon from "../src/assets/img/copyright/linkedin.svg";
 
+// Logo Image
 export const header = {
     logo: LogoImg,
     btnText: "Request a Demo",
