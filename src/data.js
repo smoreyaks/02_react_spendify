@@ -34,6 +34,7 @@ export const header = {
     btnText: "Request a Demo",
 };
 
+// Navbar
 export const nav = [
     { name: "Features", href: "/" },
     { name: "About Us", href: "/" },
@@ -41,6 +42,7 @@ export const nav = [
     { name: "Feedback", href: "/" },
 ];
 
+// Hero Section
 export const hero = {
     title: "Track Your Expenses & Save Money",
     subtitle: "Help organize your income and expenses!",
@@ -49,6 +51,7 @@ export const hero = {
     image: HeroImg,
 };
 
+// Overview Section
 export const overview = {
     title: "Join Our Major Partners",
     productImg: OverviewProductImg,
@@ -76,6 +79,7 @@ export const overview = {
     ],
 };
 
+// Feature 1, 2 and 3 Sections
 export const features = {
     feature1: {
         pretitle: "Stay Online",
@@ -106,6 +110,7 @@ export const features = {
     },
 };
 
+// Product Section
 export const product = {
     title: "Something For Everyone ",
     subtitle:
@@ -132,6 +137,7 @@ export const product = {
     ],
 };
 
+// Pricing Section
 export const pricing = {
     title: "Choose From Our Flexible Plans",
     cards: [
@@ -177,6 +183,7 @@ export const pricing = {
     ],
 };
 
+// Testimonials Section
 export const testimonials = {
     title: "New Happy Customers Everyday!",
     clients: [
@@ -223,6 +230,7 @@ export const testimonials = {
     ],
 };
 
+// Call To Action Section
 export const cta = {
     title: "20M+ Downloads Across 32 Different Countries!",
     subtitle: "Try A Full Featured Demo For 7 Days Today!",
@@ -231,6 +239,7 @@ export const cta = {
     img2: CtaImg2,
 };
 
+// Footer Section
 export const footer = {
     logo: LogoImg,
     links: [
@@ -258,8 +267,10 @@ export const footer = {
     },
 };
 
+// Get Current Year Value
 let currentYear = new Date().getFullYear();
 
+// Copyright Section - Footer
 export const copyright = {
     link1: {
         name: "Privacy & Terms",
