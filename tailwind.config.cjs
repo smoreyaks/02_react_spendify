@@ -34,7 +34,7 @@ module.exports = {
                 neutral: "#F7F7F7",
             },
             backgroundImage: {
-                hero: "url('/src/assets/img/hero/14667909_5516774.jpg')",
+                hero: "url('/src/assets/img/hero/14667909_5516774-rev.jpg')",
                 overview: "url('/src/assets/img/hero/14667909_5516774.jpg')",
                 cta: "url('/src/assets/img/cta/bg.svg')",
             },
