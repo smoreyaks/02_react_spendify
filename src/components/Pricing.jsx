@@ -111,7 +111,7 @@ const Pricing = () => {
                                             className={`${
                                                 cardIndex === index
                                                     ? "bg-accent hover:bg-accentHover text-white"
-                                                    : "border border-accent text-accent btn-outline"
+                                                    : "border-2 border-accent text-accent btn-outline"
                                             } btn btn-sm space-x-[14px] `}
                                         >
                                             <span>{btnText}</span>
