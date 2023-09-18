@@ -90,9 +90,9 @@ const Footer = () => {
 
                         {/* Form */}
                         <form className="max-w-[349px] mb-[10px]">
-                            <div className="h-[62px] p-[7px] flex border border-dark rounded-lg">
+                            <div className="h-[62px] p-[5px] flex border-2 border-dark rounded-lg bg-white">
                                 <input
-                                    className="w-full h-full pl-2 border-none text-sm sm:text-base outline-none placeholder:text-dark"
+                                    className="w-full h-full rounded-md pl-2 bg-white border-none text-sm sm:text-base outline-none placeholder:text-dark"
                                     type="text"
                                     placeholder={form.placeholder}
                                 />
