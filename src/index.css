@@ -58,13 +58,13 @@
     @apply text-accent bg-white hover:bg-white/90;
   }
   .btn-outline {
-    @apply bg-transparent text-accent border border-accent hover:bg-accent hover:text-white;
+    @apply bg-transparent text-accent border-2 border-accent hover:bg-accent hover:text-white;
   }
   .btn-link {
     @apply text-accent text-xl lg:text-2xl;
   }
   .contentBox {
-    @apply  bg-neutral rounded-3xl py-10 lg:py-20 shadow-sm;
+    @apply  bg-neutral rounded-3xl py-10 lg:py-20 shadow-sm border-dark2 border-2;
   }
   .svg-accent:hover, .svg-accent:focus {
     filter: invert(41%) sepia(62%) saturate(1004%) hue-rotate(322deg) brightness(97%) contrast(94%);
