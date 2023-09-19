@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+import Header from "./Header";
 
 // Import data
 import { hero } from "../data";
@@ -9,6 +11,15 @@ import { HiOutlineChevronDown } from "react-icons/hi";
 const Hero = () => {
     // Destructure Hero Data
     const { title, subtitle, btnText, compText, image } = hero;
+    const [isActive, setIsActive] = useState(false);
+
+    // Scroll Event
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            window.scrollY > 20 ? setIsActive(true) : setIsActive(false);
+        });
+    });
+
     return (
         <section
             id="hero"
@@ -19,6 +30,7 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
             >
+                <Header isActive={isActive} />
                 <div className="flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row lg:items-center justify-between text-center lg:text-left pt-20 lg:pt-0">
                     {/* Hero Title Text */}
                     <div className="flex-1 text-center">
