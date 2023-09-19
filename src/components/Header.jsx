@@ -11,26 +11,28 @@ import { HiOutlineX, HiMenuAlt4 } from "react-icons/hi";
 import MobileNav from "../components/MobileNav";
 import Nav from "../components/Nav";
 
-const Header = () => {
+const Header = ({ isActive }) => {
     // Mobile Navigation State
     const [mobileNav, setMobileNav] = useState(false);
+
     // Header State
-    const [isActive, setIsActive] = useState(false);
+    // const [isActive, setIsActive] = useState(false);
+
     // Destructure Header Data
     const { logo, btnText } = header;
 
-    // Scroll Event
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            window.scrollY > 20 ? setIsActive(true) : setIsActive(false);
-        });
-    });
+    // // Scroll Event
+    // useEffect(() => {
+    //     window.addEventListener("scroll", () => {
+    //         window.scrollY > 20 ? setIsActive(true) : setIsActive(false);
+    //     });
+    // });
 
     return (
         <header
             id="header-nav"
             className={`${
-                isActive ? "lg:top-0 bg-neutral shadow-lg" : " top-[12rem]"
+                isActive ? "lg:top-0 bg-neutral shadow-lg" : " top-[0%]" // or top-[22%]
             } py-6 lg:py-8 fixed w-full transition-all duration-700 z-10`}
         >
             <div className="container mx-auto px-12 lg:px-[100px] flex justify-between items-center">
