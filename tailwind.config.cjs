@@ -44,6 +44,7 @@ module.exports = {
             },
             transitionDuration: {
                 "400": "400ms",
+                // Add Cubic Bezier for Quick Ease Out, Longer Ease In
             },
         },
     },
