@@ -8,15 +8,15 @@ import { hero } from "../data";
 // Import Icons
 import { HiOutlineChevronDown } from "react-icons/hi";
 
-const Hero = () => {
+const Hero = ({ isActive, className }) => {
     // Destructure Hero Data
     const { title, subtitle, btnText, compText, image } = hero;
-    const [isActive, setIsActive] = useState(false);
+    const [navVisible, setNavVisible] = useState(false);
 
     // Scroll Event
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            window.scrollY > 20 ? setIsActive(true) : setIsActive(false);
+            window.scrollY > 20 ? setNavVisible(true) : setNavVisible(false);
         });
     });
 
@@ -30,7 +30,15 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
             >
-                <Header isActive={isActive} />
+                <Header
+                    isActive={isActive}
+                    className={`${
+                        navVisible
+                            ? "lg:top-0 bg-neutral opacity-0"
+                            : " top-[0] opacity-100" // or top-[22%]
+                    } py-6 lg:py-8 fixed w-full transition-all duration-200 ease-in z-10`}
+                />
+
                 <div className="flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row lg:items-center justify-between text-center lg:text-left pt-20 lg:pt-0">
                     {/* Hero Title Text */}
                     <div className="flex-1 text-center">
