@@ -34,9 +34,9 @@ const Hero = ({ isActive, className }) => {
                     isActive={isActive}
                     className={`${
                         navVisible
-                            ? "lg:top-0 bg-neutral opacity-0"
-                            : " top-[0] opacity-100" // or top-[22%]
-                    } py-6 lg:py-8 fixed w-full transition-all duration-200 ease-in z-10`}
+                            ? "lg:top-0 bg-neutral opacity-0 duration-200 ease-disappear"
+                            : " top-[0] opacity-100 duration-500 ease-appear" // or top-[22%]
+                    } py-6 lg:py-8 fixed w-full  z-10`}
                 />
 
                 <div className="flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row lg:items-center justify-between text-center lg:text-left pt-20 lg:pt-0">
