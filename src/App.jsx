@@ -34,6 +34,10 @@ const App = () => {
         window.addEventListener("scroll", () => {
             window.scrollY > 20 ? setIsActive(true) : setIsActive(false);
         });
+        // if (isActive) {
+        //     setTimeout(100)
+
+        // }
     });
 
     return (
@@ -43,7 +47,7 @@ const App = () => {
                 className={`${
                     isActive
                         ? "lg:top-0 bg-neutral shadow-lg"
-                        : " top-[22%] opacity-0" // or top-[22%]
+                        : " top-[23%] opacity-0" // or top-[22%]
                 } py-6 lg:py-8 fixed w-full transition-all duration-700 z-10`}
             />
             <Hero />
