@@ -42,9 +42,22 @@ module.exports = {
             scale: {
                 25: "0.25",
             },
+            // Add Cubic Bezier for Quick Ease Out, Longer Ease In
             transitionDuration: {
+                "0": "0ms",
+                "25": "25ms",
                 "400": "400ms",
-                // Add Cubic Bezier for Quick Ease Out, Longer Ease In
+                "600": "600ms",
+                '900': '900ms',
+                '2000': '2000ms',
+                '2500': '2500ms',
+                '3000': '3000ms',
+            },
+            transitionTimingFunction: {
+                'inAlt': 'cubic-bezier(1,0,.75,-1)',
+                'outAlt': 'cubic-bezier(.25,1,.25,1)',
+                'appear': 'cubic-bezier(0.45,-0.25,1,-0.25)',
+                'disappear': 'cubic-bezier(.25,1,.25,1)',
             },
         },
     },
